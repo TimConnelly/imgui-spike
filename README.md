@@ -1,16 +1,15 @@
 # imgui-spike
 
-[![ci](https://github.com/TimConnelly/imgui-spike/actions/workflows/ci.yml/badge.svg)](https://github.com/TimConnelly/imgui-spike/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/TimConnelly/imgui-spike/branch/main/graph/badge.svg)](https://codecov.io/gh/TimConnelly/imgui-spike)
-[![CodeQL](https://github.com/TimConnelly/imgui-spike/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/TimConnelly/imgui-spike/actions/workflows/codeql-analysis.yml)
+A super simple application tying together ImGui and httplib. It simply has a button to make a GET request to a test endpoint. 
 
-## About imgui-spike
+## Dependencies
+1. Dear ImGui (included)
+1. httplib (included)
+1. GLFW - see Makefile for install
+1. OpenSSL
 
-
-
-## More Details
-
- * [Dependency Setup](README_dependencies.md)
- * [Building Details](README_building.md)
- * [Troubleshooting](README_troubleshooting.md)
- * [Docker](README_docker.md)
+## Building
+```sh
+cd src/example_glfw_opengl3_requests
+make
+```

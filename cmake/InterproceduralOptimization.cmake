@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(imgui_spike_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)
